@@ -21,7 +21,7 @@ A robust installation system for Skyport Panel and Daemon services.
 ## Quick Start
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/skyportlabs/installer/main/install.sh | sudo bash
+curl -sSL https://raw.githubusercontent.com/Thavanish/Skyport-installer/installer.sh | sudo bash
 ```
 
 ## Installation Options
