@@ -1,87 +1,244 @@
+<div align="center">
+
+<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNDAgODAiPjxzdHlsZT4uYXtmb250LXNpemU6NDBweDtmb250LWZhbWlseTpBcmlhbCxzYW5zLXNlcmlmO2ZpbGw6IzMzMzt9QGtleWZyYW1lcyBmYWRle2Zyb217b3BhY2l0eTowfXRve29wYWNpdHk6MX19LnR7YW5pbWF0aW9uOmZhZGUgMnMgaW5maW5pdGUgYWx0ZXJuYXRlfTwvc3R5bGU+PHRleHQgeD0iMjAiIHk9IjUwIiBjbGFzcz0iYSB0Ij7wn5qAIFNreXBvcnQ8L3RleHQ+PC9zdmc+" width="240" height="80" alt="Skyport Logo">
+
 # Skyport Installation System
 
-A robust installation system for Skyport Panel and Daemon services.
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=for-the-badge&logo=apache)](LICENSE)
+[![Version](https://img.shields.io/badge/version-0.2.2-brightgreen.svg?style=for-the-badge&logo=github)](https://github.com/Thavanish/Skyport-installer)
+[![Platform](https://img.shields.io/badge/platform-debian-orange.svg?style=for-the-badge&logo=debian)]()
+[![Node](https://img.shields.io/badge/node-v20.x-green.svg?style=for-the-badge&logo=node.js)]()
+[![Docker](https://img.shields.io/badge/docker-required-blue.svg?style=for-the-badge&logo=docker)]()
 
-## Features
+<p align="center">
+  <a href="#features">Features</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#prerequisites">Prerequisites</a> •
+  <a href="#support">Support</a>
+</p>
 
-- Interactive menu-driven installation
-- Component-based installation (Panel, Daemon, Dependencies)
-- Automatic dependency management
-- Installation logging
-- Directory conflict detection
-- Service configuration with PM2
-- Uninstallation capabilities
+</div>
 
-## Prerequisites
+---
 
-- Root access
-- Debian-based Linux distribution
-- Internet connectivity
+<div align="center">
 
-## Quick Start
+### 🚀 Quick Installation
+
+</div>
+
+```bash
+curl -sL https://raw.githubusercontent.com/Thavanish/Skyport-installer/main/installer.sh | bash
+```
+
+<details>
+<summary>🔍 Or use wget...</summary>
 
 ```bash
 wget https://raw.githubusercontent.com/Thavanish/Skyport-installer/refs/heads/main/installer.sh && bash installer.sh
 ```
 
-## Installation Options
+</details>
 
-1. **Install Everything**: Complete installation of Panel, Daemon, and all dependencies
-2. **Install Panel Only**: Installs only the Skyport Panel component
-3. **Install Daemon Only**: Installs only the Skyport Daemon component
-4. **Install Dependencies Only**: Installs system dependencies without components
-5. **Remove Panel**: Uninstalls the Panel component
-6. **Remove Daemon**: Uninstalls the Daemon component
-7. **Remove Dependencies**: Removes installed system dependencies
+---
 
-## Safety Features
+## 👥 Credits
 
-- Checks for existing installations before proceeding
-- Prompts for confirmation before overwriting existing files
-- Comprehensive logging at `/var/log/skyport-install.log`
-- Graceful cleanup on interruption
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/Thavanish">
+        <img src="/api/placeholder/100/100" width="100px;" alt="Thavanish"/>
+        <br />
+        <sub><b>Thavanish</b></sub>
+      </a>
+      <br />
+      <sub>Installation Script Developer</sub>
+    </td>
+    <td align="center">
+      <a href="https://skyportlabs.com">
+        <img src="/api/placeholder/100/100" width="100px;" alt="SkyportLabs"/>
+        <br />
+        <sub><b>SkyportLabs</b></sub>
+      </a>
+      <br />
+      <sub>Platform Provider</sub>
+    </td>
+  </tr>
+</table>
 
-## Components Installed
+## ✨ Features
 
-- Skyport Panel (v0.2.2)
-- Skyport Daemon (v0.2.2)
-- Node.js 20.x
-- Docker
-- PM2 Process Manager
-- Git
+<div align="center">
 
-## Directory Structure
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#features)
 
-```
+</div>
+
+<details open>
+<summary><b>🎯 Core Features</b></summary>
+
+- 🖥️ Interactive menu-driven installation
+- 🧩 Component-based installation (Panel, Daemon, Dependencies)
+- 🔧 Automatic dependency management
+- 📝 Comprehensive installation logging
+
+</details>
+
+<details>
+<summary><b>🛡️ Safety Features</b></summary>
+
+- ✅ Pre-installation system checks
+- ⚠️ Conflict detection
+- 🔒 Secure default configurations
+- 🧹 Automatic cleanup on failure
+
+</details>
+
+<details>
+<summary><b>⚙️ Management Features</b></summary>
+
+- 📊 Service monitoring via PM2
+- 🔄 Automatic updates
+- 🗑️ Clean uninstallation
+- 📈 Performance tracking
+
+</details>
+
+## 📋 Prerequisites
+
+> [!IMPORTANT]
+> Make sure your system meets these requirements before installation:
+
+- 🔑 Root access
+- 🐧 Debian-based Linux distribution
+- 🌐 Internet connectivity
+
+> [!NOTE]
+> For optimal performance, we recommend:
+> - 2GB+ RAM
+> - 20GB+ free disk space
+> - 2+ CPU cores
+
+## 🚀 Installation Options
+
+<div align="center">
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#installation)
+
+</div>
+
+Choose your installation type:
+
+| Option | Description | Command |
+|--------|-------------|---------|
+| 📦 Full Install | Complete suite | `bash installer.sh --full` |
+| 🎯 Panel Only | Skyport Panel | `bash installer.sh --panel` |
+| ⚡ Daemon Only | Skyport Daemon | `bash installer.sh --daemon` |
+| 🔧 Dependencies | System requirements | `bash installer.sh --deps` |
+
+## 🔧 Components
+
+<div align="center">
+
+Component | Version | Status
+----------|---------|--------
+Skyport Panel | v0.2.2 | [![Status](https://img.shields.io/badge/status-stable-green.svg?style=flat-square)]()
+Skyport Daemon | v0.2.2 | [![Status](https://img.shields.io/badge/status-stable-green.svg?style=flat-square)]()
+Node.js | 20.x | [![Status](https://img.shields.io/badge/status-required-blue.svg?style=flat-square)]()
+Docker | Latest | [![Status](https://img.shields.io/badge/status-required-blue.svg?style=flat-square)]()
+PM2 | Latest | [![Status](https://img.shields.io/badge/status-required-blue.svg?style=flat-square)]()
+Git | Latest | [![Status](https://img.shields.io/badge/status-required-blue.svg?style=flat-square)]()
+
+</div>
+
+## 📁 Directory Structure
+
+<details>
+<summary>Click to expand</summary>
+
+```bash
 /etc/
-├── skyport/     # Panel installation
-└── skyportd/    # Daemon installation
+├── skyport/              # Panel installation
+│   ├── config/           # Configuration files
+│   ├── logs/            # Panel logs
+│   └── data/            # Application data
+│
+└── skyportd/            # Daemon installation
+    ├── config/          # Daemon configuration
+    ├── logs/           # Daemon logs
+    └── services/       # Service definitions
 ```
 
-## Logging
+</details>
 
-All installation steps are logged to `/var/log/skyport-install.log`
+## ❗ Troubleshooting
 
-## Troubleshooting
+> [!TIP]
+> Common issues and solutions:
 
-If you encounter issues during installation:
+<details>
+<summary>📋 Installation Fails</summary>
 
-1. Check the log file at `/var/log/skyport-install.log`
-2. Ensure all prerequisites are met
-3. Verify internet connectivity
-4. Check system has sufficient disk space
+1. Check logs: `cat /var/log/skyport-install.log`
+2. Verify permissions
+3. Check internet connection
+4. Ensure sufficient disk space
 
-## Uninstallation
+</details>
 
-Use options 5-7 in the installer menu to remove individual components or dependencies.
+<details>
+<summary>🔧 Service Won't Start</summary>
 
-## Support
+1. Check PM2 status: `pm2 status`
+2. Verify port availability
+3. Check service logs
+4. Validate configuration
 
-For support, please:
-1. Check the log file
-2. Visit our documentation at https://docs.skyportlabs.com
-3. Open an issue on our GitHub repository
+</details>
 
-## License
+## 💬 Support
 
-apache 2.0 License - See LICENSE file for details
+<div align="center">
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#support)
+
+</div>
+
+> [!IMPORTANT]
+> Need help? We've got you covered:
+
+<kbd>[📖 Documentation](https://docs.skyportlabs.com)</kbd> • <kbd>[🐛 Issue Tracker](https://github.com/Thavanish/Skyport-installer/issues)</kbd> • <kbd>[💬 Discussions](https://github.com/Thavanish/Skyport-installer/discussions)</kbd>
+
+## 📄 License
+
+<details>
+<summary>Apache License 2.0</summary>
+
+```
+Copyright 2024 Thavanish
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
+
+</details>
+
+---
+
+<div align="center">
+
+**[⬆ back to top](#skyport-installation-system)**
+
+Made by [Thavanish](https://github.com/Thavanish)
+panel and daemon by [Skyportlabs](http://skyport.dev/)
+</div>
