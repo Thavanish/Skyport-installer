@@ -21,7 +21,7 @@ A robust installation system for Skyport Panel and Daemon services.
 ## Quick Start
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/Thavanish/Skyport-installer/installer.sh | sudo bash
+curl -sSL https://raw.githubusercontent.com/Thavanish/Skyport-installer/refs/heads/main/installer.sh | sudo bash
 ```
 
 ## Installation Options
