@@ -132,8 +132,8 @@ wget https://raw.githubusercontent.com/Thavanish/Skyport-installer/refs/heads/ma
 
 Component | Version | Status
 ----------|---------|--------
-Skyport Panel | v0.2.2 | [![Status](https://img.shields.io/badge/status-stable-green.svg?style=flat-square)]()
-Skyport Daemon | v0.2.2 | [![Status](https://img.shields.io/badge/status-stable-green.svg?style=flat-square)]()
+Skyport Panel | v0.2.2 | [![Status](https://img.shields.io/badge/status-stable-green.svg?style=flat-square)](https://github.com/skyportlabs/panel)
+Skyport Daemon | v0.2.2 | [![Status](https://img.shields.io/badge/status-stable-green.svg?style=flat-square)](https://github.com/skyportlabs/skyportd)
 Node.js | 20.x | [![Status](https://img.shields.io/badge/status-required-blue.svg?style=flat-square)]()
 Docker | Latest | [![Status](https://img.shields.io/badge/status-required-blue.svg?style=flat-square)]()
 PM2 | Latest | [![Status](https://img.shields.io/badge/status-required-blue.svg?style=flat-square)]()
