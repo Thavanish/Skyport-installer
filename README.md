@@ -126,17 +126,6 @@ wget https://raw.githubusercontent.com/Thavanish/Skyport-installer/refs/heads/ma
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#installation)
 
-</div>
-
-Choose your installation type:
-
-| Option | Description | Command |
-|--------|-------------|---------|
-| 📦 Full Install | Complete suite | `bash installer.sh --full` |
-| 🎯 Panel Only | Skyport Panel | `bash installer.sh --panel` |
-| ⚡ Daemon Only | Skyport Daemon | `bash installer.sh --daemon` |
-| 🔧 Dependencies | System requirements | `bash installer.sh --deps` |
-
 ## 🔧 Components
 
 <div align="center">
