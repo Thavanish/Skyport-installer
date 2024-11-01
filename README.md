@@ -5,7 +5,7 @@
 # Skyport Installation System
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=for-the-badge&logo=apache)](LICENSE)
-[![Version](https://img.shields.io/badge/version-0.2.2-brightgreen.svg?style=for-the-badge&logo=github)](https://github.com/Thavanish/Skyport-installer)
+[![Version](https://img.shields.io/badge/version-1.0.0-brightgreen.svg?style=for-the-badge&logo=github)](https://github.com/Thavanish/Skyport-installer)
 [![Platform](https://img.shields.io/badge/platform-debian-orange.svg?style=for-the-badge&logo=debian)]()
 [![Node](https://img.shields.io/badge/node-v20.x-green.svg?style=for-the-badge&logo=node.js)]()
 [![Docker](https://img.shields.io/badge/docker-required-blue.svg?style=for-the-badge&logo=docker)]()
