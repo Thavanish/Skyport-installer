@@ -84,4 +84,4 @@ For support, please:
 
 ## License
 
-MIT License - See LICENSE file for details
+apache 2.0 License - See LICENSE file for details
