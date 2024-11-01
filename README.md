@@ -56,7 +56,7 @@ wget https://raw.githubusercontent.com/Thavanish/Skyport-installer/refs/heads/ma
       <sub>Installation Script Developer</sub>
     </td>
     <td align="center">
-      <a href="https://skyportlabs.com">
+      <a href="https://github.com/skyportlabs">
         <img src="/api/placeholder/100/100" width="100px;" alt="SkyportLabs"/>
         <br />
         <sub><b>SkyportLabs</b></sub>
