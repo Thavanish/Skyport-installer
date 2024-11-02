@@ -138,7 +138,7 @@ install_panel() {
         return 1
     fi
     
-    execute_step "cd /etc && git clone https://github.com/skyportlabs/panel skyport" "Cloning Panel repository"
+    execute_step "cd /etc && git clone https://github.com/skyportlabs/panel && mv panel skyport " "Cloning Panel repository"
     execute_step "cd /etc/skyport && npm install" "Installing Panel dependencies"
     execute_step "cd /etc/skyport && npm run seed" "Initializing database"
     
