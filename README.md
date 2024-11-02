@@ -1,5 +1,14 @@
 <div align="center">
 
+> [!WARNING]
+> # ⚠️ Repository Archived
+> 
+> This repository has been archived and is no longer maintained. The original Skyport project has been discontinued.
+> 
+> Thank you to everyone who supported this project. For historical purposes, this installer script and documentation will remain available as read-only.
+
+---
+
 <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNDAgODAiPjxzdHlsZT4uYXtmb250LXNpemU6NDBweDtmb250LWZhbWlseTpBcmlhbCxzYW5zLXNlcmlmO2ZpbGw6IzMzMzt9QGtleWZyYW1lcyBmYWRle2Zyb217b3BhY2l0eTowfXRve29wYWNpdHk6MX19LnR7YW5pbWF0aW9uOmZhZGUgMnMgaW5maW5pdGUgYWx0ZXJuYXRlfTwvc3R5bGU+PHRleHQgeD0iMjAiIHk9IjUwIiBjbGFzcz0iYSB0Ij7wn5qAIFNreXBvcnQ8L3RleHQ+PC9zdmc+" width="240" height="80" alt="Skyport Logo">
 
 # Skyport Installation System
