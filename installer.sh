@@ -198,12 +198,6 @@ remove_component() {
             execute_step "rm -rf /etc/apt/sources.list.d/nodesource.list" "Removing repositories"
             ;;
         "everything")
-            echo "Do you wish to install this program?"
-            select yn in "Yes" "No"
-            case $yn in
-                Yes ) make install;;
-                    No ) show_menu ;;
-                    esac
             remove_component "panel"
             remove_component "daemon"
             remove_component "dependencies"
@@ -249,7 +243,7 @@ show_menu() {
                 remove_component "dependencies"
                 ;;
             8)
-                echo -e "\n"
+                remove_component "everything"
                 ;;
             9)
                 echo -e "\n${GREEN}Installation complete!${NC}"
