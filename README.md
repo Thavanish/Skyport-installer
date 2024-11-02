@@ -29,7 +29,6 @@
 install wget and then ,
 ```bash
 wget https://raw.githubusercontent.com/Thavanish/Skyport-installer/refs/heads/main/installer.sh && bash installer.sh
-
 ```
 
 <details>
