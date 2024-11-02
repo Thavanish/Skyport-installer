@@ -197,6 +197,16 @@ remove_component() {
             execute_step "apt-get autoremove -y" "Cleaning up"
             execute_step "rm -rf /etc/apt/sources.list.d/nodesource.list" "Removing repositories"
             ;;
+        "everything")
+            echo "Do you wish to install this program?"
+            select yn in "Yes" "No"
+            case $yn in
+                Yes ) make install;;
+                    No ) show_menu ;;
+                    esac
+            remove_component "panel"
+            remove_component "daemon"
+            remove_component "dependencies"
     esac
 }
 
@@ -211,7 +221,8 @@ show_menu() {
         echo -e "${BLUE}5)${NC} Remove Panel"
         echo -e "${BLUE}6)${NC} Remove Daemon"
         echo -e "${BLUE}7)${NC} Remove Dependencies"
-        echo -e "${BLUE}8)${NC} Exit"
+        echo -e "${BLUE}8)${NC} Remove everything" 
+        echo -e "${BLUE}9)${NC} Exit"
         
         read -p "Select option [1-8]: " choice
         
@@ -238,6 +249,9 @@ show_menu() {
                 remove_component "dependencies"
                 ;;
             8)
+                echo -e "\n"
+                ;;
+            9)
                 echo -e "\n${GREEN}Installation complete!${NC}"
                 elapsed_time
                 exit 0
