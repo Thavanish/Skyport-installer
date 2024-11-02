@@ -35,7 +35,7 @@ wget https://raw.githubusercontent.com/Thavanish/Skyport-installer/refs/heads/ma
 <summary>🔍 Or use curl...</summary>
 
 ```bash
-curl -sL https://raw.githubusercontent.com/Thavanish/Skyport-installer/main/installer.sh | bash
+curl -sL https://raw.githubusercontent.com/Thavanish/Skyport-installer/refs/heads/main/installer.sh | bash
 ```
 
 </details>
