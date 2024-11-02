@@ -26,16 +26,17 @@
 ### 🚀 Quick Installation
 
 </div>
-
+install wget and then ,
 ```bash
-curl -sL https://raw.githubusercontent.com/Thavanish/Skyport-installer/main/installer.sh | bash
+wget https://raw.githubusercontent.com/Thavanish/Skyport-installer/refs/heads/main/installer.sh && bash installer.sh
+
 ```
 
 <details>
-<summary>🔍 Or use wget...</summary>
+<summary>🔍 Or use curl...</summary>
 
 ```bash
-wget https://raw.githubusercontent.com/Thavanish/Skyport-installer/refs/heads/main/installer.sh && bash installer.sh
+curl -sL https://raw.githubusercontent.com/Thavanish/Skyport-installer/main/installer.sh | bash
 ```
 
 </details>
