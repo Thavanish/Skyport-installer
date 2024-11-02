@@ -266,3 +266,4 @@ if [ "$EUID" -ne 0 ]; then
 fi
 
 show_menu
+rm installer.sh
