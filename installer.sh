@@ -138,7 +138,7 @@ install_panel() {
         return 1
     fi
     
-    execute_step "cd /etc && git clone --branch v0.2.2 https://github.com/skyportlabs/panel skyport" "Cloning Panel repository"
+    execute_step "cd /etc && git clone https://github.com/skyportlabs/panel skyport" "Cloning Panel repository"
     execute_step "cd /etc/skyport && npm install" "Installing Panel dependencies"
     execute_step "cd /etc/skyport && npm run seed" "Initializing database"
     
@@ -160,7 +160,7 @@ install_daemon() {
         return 1
     fi
     
-    execute_step "cd /etc && git clone --branch v0.2.2 https://github.com/skyportlabs/skyportd" "Cloning Daemon repository"
+    execute_step "cd /etc && git clone https://github.com/skyportlabs/skyportd" "Cloning Daemon repository"
     execute_step "cd /etc/skyportd && npm install" "Installing Daemon dependencies"
     execute_step "npm install -g pm2" "Installing PM2"
     
